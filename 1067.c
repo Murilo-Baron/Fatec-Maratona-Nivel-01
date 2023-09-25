@@ -1,19 +1,11 @@
-#include <stdio.h>
-
-
-int main () {
-
-int i, cont = 0, a;
-
-for (i = 0; i < 5; i++){
-  scanf("%d", &a);
-  if (a % 2 == 0){
-
-    cont++;
-
-  }
-}
-
-printf("%d valores pares\n", cont);
-
+#include<stdio.h>
+int main()
+{
+    int n,i;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        if(i%2!=0){
+            printf("%d\n",i);
+        }
+    }
 }
